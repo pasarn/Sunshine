@@ -759,6 +759,7 @@ namespace video {
          }},
         {"gops_per_idr"s, 1},
         {"header_insertion_mode"s, "idr"s},
+        {"level"s, "5.1"s},
         {"preencode"s, &config::video.amd.amd_preanalysis},
         {"quality"s, &config::video.amd.amd_quality_hevc},
         {"rc"s, &config::video.amd.amd_rc_hevc},
